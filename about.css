@@ -1,0 +1,238 @@
+/******about page css styling****/
+
+/*main styling*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0px;
+}
+/*header styling*/
+header {
+  height: 10vh;
+}
+/*body styling*/
+body {
+  font-size: 62.5%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center;
+}
+/*article styling
+in the article i added width and height 
+the make objects we add inside fitt
+perfectly*/
+article {
+  width: 95%;
+  min-height: 100%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 3px solid white;
+  background-color: rgba(5, 0, 0, 0.6);
+  font-size: 1rem;
+  color: white;
+}
+/*h2 styling*/
+h2 {
+  font-style: italic;
+  text-align: center;
+  color: rgb(193, 154, 154);
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+/*p styling*/
+p {
+  line-height: 20px;
+  padding: 25px;
+  font-size: 1.5rem;
+}
+/*h3 styling*/
+h3 {
+  font-style: italic;
+  background-color: navy;
+  border: 1px solid white;
+  color: rgb(193, 154, 154);
+  text-align: center;
+  margin-bottom: 10px;
+}
+/*caption styling*/
+caption {
+  text-align: center;
+  font-size: 2.3rem;
+  color: rgb(228, 228, 243);
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*table styling*/
+.table {
+  border: solid 1px #ddeeee;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font: normal 13px Arial, sans-serif;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.1em;
+}
+/*thead styling*/
+.table thead th {
+  background-color: navy;
+  border: solid 1px navy;
+  color: rgb(193, 154, 154);
+  padding: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #fff;
+  font-style: italic;
+  font-weight: bold;
+}
+/*Tbody styling*/
+.table tbody td {
+  border: solid 1px #ddeeee;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+/*section styling*/
+section {
+  box-sizing: border-box;
+}
+
+/*section h2 styling*/
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+/*Container styling*/
+#container {
+  max-width: 95%;
+  min-height: 100%;
+  margin: 0 auto;
+  border: 5px solid #cbcaca;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgba(5, 0, 0, 0.6);
+  background-size: cover;
+  padding: 30px;
+}
+/*Container div styling
+we add height and width to the div
+and make the font bold to make it 
+darker than the other words
+*/
+#container div {
+  background-position: center;
+  cursor: pointer;
+  transition: flex 0.4s linear;
+  font-weight: bold;
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  font-size: 5em;
+}
+/*B styling*/
+b {
+  background-color: yellow;
+  color: black;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  font-style: italic;
+}
+/*Container p styling
+position stling to every p
+we add the :nth-of-type() to add for every 
+one of the (p) a different postion*/
+#container hr:nth-of-type(1) {
+  margin-top: 80px;
+}
+/*Container p styling
+position stling to every p
+we add the :nth-of-type() to add for every 
+one of the (p) a different postion*/
+#container hr:nth-of-type(2) {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+/*Container p styling
+position stling to every p
+we add the :nth-of-type() to add for every 
+one of the (p) a different postion*/
+#container hr:nth-of-type(3) {
+  margin-top: 100px;
+}
+
+/*Container p styling
+position stling to every p
+we add the :nth-of-type() to add for every 
+one of the (p) a different postion*/
+#container hr:nth-of-type(4) {
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+#container hr:nth-of-type(5) {
+  margin-top: 60px;
+}
+
+#container hr:nth-of-type(6) {
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+#container hr:nth-of-type(7) {
+  margin-bottom: 100px;
+}
+/*Container div styling
+position stlying to every div
+we add the :nth-of-type() to add for every 
+one of the (div) a different background image
+and add the float to make the words we write to 
+float next to  the page */
+#container div:nth-of-type(1) {
+  background-image: url(../images/classic.jfif);
+  float: left;
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+#container div:nth-of-type(2) {
+  background-image: url(../images/mazda3_100_year_anniversary_editions_action_021.webp);
+  float: right;
+  background-size: contain;
+}
+
+#container div:nth-of-type(3) {
+  background-image: url(../images/93fd8d12-b859-457d-a2c5-5f1f29d1a5ce.jfif);
+  float: left;
+  background-size: contain;
+}
+
+#container div:nth-of-type(4) {
+  background-image: url(../images/suv.jfif);
+  float: right;
+  background-size: contain;
+}
+
+#container div:nth-of-type(5) {
+  background-image: url(../images/offroad.jfif);
+  float: left;
+  background-size: contain;
+}
+
+#container div:nth-of-type(6) {
+  background-image: url(../images/supercar.jfif);
+  float: right;
+  background-size: contain;
+}
+
+#container div:nth-of-type(7) {
+  background-image: url(..//images/Ferrari_Formula_1_lineup_at_the_Nurburgring.jpg);
+  float: left;
+  background-size: contain;
+}
